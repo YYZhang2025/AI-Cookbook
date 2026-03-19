@@ -2,69 +2,69 @@
 <rss version="2.0">
     <channel>
       <title>(M)LLM Cookbook</title>
-      <link>https://quartz.jzhao.xyz</link>
+      <link>https://yyzhang2025.github.io/LLM-CookBook/</link>
       <description>Last 10 notes on (M)LLM Cookbook</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>About this Cookbook</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ LLM的变化日新月异，每天都有新的东西诞生，从2023年ChatGPT的出示，到2026年出OpenClaw的爆火，现在学生，研究员的生活已经离不开大模型了。于是乎也有越来越多的人想要了解这一门技术，但是从何开始呢？ 可能有了解我的同学们，和我一起学习过Stanford CS336: LLM from Scratch。 确实，这是一门很好的课程，从数据搭建开始，到模型的Pre-Training， Post-Training， 以及如何高效的利用GPU，Parallelism的机制，到如何高效的Inference，并且Evaluation。不过LLM的扩展面还是很广的，有许多的内容课程中都没有提... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 07:41:42 GMT</pubDate>
-  </item><item>
-    <title>Muon</title>
-    <link>https://quartz.jzhao.xyz/Optimizer/Muon</link>
-    <guid>https://quartz.jzhao.xyz/Optimizer/Muon</guid>
-    <description><![CDATA[ Preliminary 在了解Moun 之前， Singular Value Decomposition 如果一个矩阵 A \in \mathbb{R}^{m \times n}, 那么它可以分解为： A = U \Sigma V^\top 这三个不同的矩阵，其中： U: Left Singular Vectors, 输出空间的正交方向 \Sigma： Singular Values Matrix，表示在每个方向上的拉伸强度 V: Right Singular Vectors，输入空间里的正交方向 我们也可以把它看成，一个矩阵经过：旋转+拉伸+旋转 我们知道， 在 AdamW 更新的时候，有一... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
-  </item><item>
-    <title>Paged Attention</title>
-    <link>https://quartz.jzhao.xyz/Model-Architecture/Attention/Paged-Attention</link>
-    <guid>https://quartz.jzhao.xyz/Model-Architecture/Attention/Paged-Attention</guid>
-    <description><![CDATA[ inference Reference Efficient Memory Management for Large Language Model Serving with PagedAttention. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
-  </item><item>
     <title>Flash Attention</title>
-    <link>https://quartz.jzhao.xyz/Model-Architecture/Attention/Flash-Attention</link>
-    <guid>https://quartz.jzhao.xyz/Model-Architecture/Attention/Flash-Attention</guid>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Attention/Flash-Attention</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Attention/Flash-Attention</guid>
     <description><![CDATA[ 1. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 16:15:52 GMT</pubDate>
   </item><item>
-    <title>Multi-Head Attention</title>
-    <link>https://quartz.jzhao.xyz/Model-Architecture/Attention/Multi-Head-Attention</link>
-    <guid>https://quartz.jzhao.xyz/Model-Architecture/Attention/Multi-Head-Attention</guid>
+    <title>Lecture 03: LM Model Architecture &amp; Hyperparameters</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/lec03</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/lec03</guid>
+    <description><![CDATA[ Lecture03 介绍了现代大语言模型的核心架构与超参数设计。课程对比了原始 Transformer 与主流 LLaMA-like 架构，总结了 pre-norm、RMSNorm、SwiGLU、RoPE 等关键设计的经验共识，并结合大量近期模型实践，讲解了 MLP 宽度比例、注意力头配置、模型深宽比与词表规模等超参数选择原则。同时还介绍了 z-loss、QK-Norm、MQA/GQA 等用于提升训练稳定性和推理效率的关键技巧。 ]]></description>
+    <pubDate>Thu, 19 Mar 2026 16:14:36 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 15:56:37 GMT</pubDate>
   </item><item>
-    <title>Model Context Protocol(MCP)</title>
-    <link>https://quartz.jzhao.xyz/Agentic/Model-Context-Protocol(MCP)</link>
-    <guid>https://quartz.jzhao.xyz/Agentic/Model-Context-Protocol(MCP)</guid>
-    <description><![CDATA[ This is the MCP Page. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
+    <title>Attention Residual(AttnRees)</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Attention-Residual(AttnRees)</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Attention-Residual(AttnRees)</guid>
+    <description><![CDATA[ arxiv.org/pdf/2603.15031 What the attention doing it. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 13:44:21 GMT</pubDate>
   </item><item>
-    <title>Overview</title>
-    <link>https://quartz.jzhao.xyz/Agentic/Overview</link>
-    <guid>https://quartz.jzhao.xyz/Agentic/Overview</guid>
-    <description><![CDATA[ This is the overview ofthe Agentic. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
+    <title>Manifold-Constrained Hyper-Connections</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Manifold-Constrained-Hyper-Connections</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Manifold-Constrained-Hyper-Connections</guid>
+    <description><![CDATA[ arxiv.org/pdf/2512.24880 . ]]></description>
+    <pubDate>Thu, 19 Mar 2026 10:58:06 GMT</pubDate>
   </item><item>
-    <title>ReAct</title>
-    <link>https://quartz.jzhao.xyz/Agentic/ReAct</link>
-    <guid>https://quartz.jzhao.xyz/Agentic/ReAct</guid>
-    <description><![CDATA[ 由 ReAct: Synergizing Reasoning and Acting in Language Models 提出. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:46:54 GMT</pubDate>
-  </item><item>
-    <title>mu-Parameter</title>
-    <link>https://quartz.jzhao.xyz/Scaling-Law/mu-Parameter</link>
-    <guid>https://quartz.jzhao.xyz/Scaling-Law/mu-Parameter</guid>
+    <title>RLAIF</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLAIF</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLAIF</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 15 Mar 2026 16:12:20 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:39:01 GMT</pubDate>
   </item><item>
-    <title>Group Relative Policy Optimization (GRPO)</title>
-    <link>https://quartz.jzhao.xyz/RL-in-LLM/Group-Relative-Policy-Optimization-(GRPO)</link>
-    <guid>https://quartz.jzhao.xyz/RL-in-LLM/Group-Relative-Policy-Optimization-(GRPO)</guid>
+    <title>RL in LLM</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:14:17 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 08:36:49 GMT</pubDate>
+  </item><item>
+    <title>Reward as Labels(REAL)</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/Reward-as-Labels(REAL)</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/Reward-as-Labels(REAL)</guid>
+    <description><![CDATA[ arxiv.org/abs/2602.05630 . ]]></description>
+    <pubDate>Thu, 19 Mar 2026 08:36:05 GMT</pubDate>
+  </item><item>
+    <title>RLVR</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLVR</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLVR</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 19 Mar 2026 08:34:26 GMT</pubDate>
+  </item><item>
+    <title>Hardware</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Hardware/</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Hardware/</guid>
+    <description><![CDATA[ 在这个章节，我们将会记录一些关于GPU的知识，比如Kernel Fusion, Tiling, 等技术，这些技术将帮助我们更好的利用GPU的资源，把它的能力拉满。. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 18:18:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
