@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>(M)LLM Cookbook</title>
+      <title>AI Cookbook</title>
       <link>https://yyzhang2025.github.io/LLM-CookBook/</link>
-      <description>Last 10 notes on (M)LLM Cookbook</description>
+      <description>Last 10 notes on AI Cookbook</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Singular Value Decomposition(SVD)</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Singular-Value-Decomposition(SVD)</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Singular-Value-Decomposition(SVD)</guid>
-    <description><![CDATA[ SVD（Singular Value Decomposition）是把一个矩阵拆成三个更容易理解的矩阵相乘： A = U\Sigma V^{\top} 如果A是一个 m \times n 的矩阵，那么： U 是一个 m \times m 的 Orthogonal matrix \Sigma 是一个 m \times n 的 Diagonal Matrix V 是一个 n \times n 的 Orthogonal matrix \Sigma = \begin{bmatrix} \sigma_1 &amp; 0 &amp; 0 &amp; \cdots \\ 0 &amp; \sigma_2 &... ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:52:57 GMT</pubDate>
+    <title>01: Transformer</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/100PwC/01-Transformer</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/100PwC/01-Transformer</guid>
+    <description><![CDATA[ Transformer 是一种基于 **自注意力机制** 的深度学习架构，能够并行处理序列，在语言、视觉和多模态任务中表现出色；并且作为 **GPT**、**BERT** 等大型语言模型（LLM）的核心基础，推动了当今生成式人工智能的快速发展。在本篇文章中，我们将深入探讨 Transformer 的基本原理，以及关键组件，包括 **Word Embedding**、**Position Embedding**、**Attention**、**Normalization Layer** 和 **Feed Forward Layer**。并通过在 `Ted Talks` 数据集上的实验，展示 Transformer 在实际任务中的应用效果。 ]]></description>
+    <pubDate>Wed, 08 Apr 2026 14:45:42 GMT</pubDate>
   </item><item>
-    <title>Orthogonal matrix</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Orthogonal-matrix</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Orthogonal-matrix</guid>
-    <description><![CDATA[ Orthogonal matrix就是“列向量两两垂直，而且每个长度都是 1”的Square Matrix: Q^{\top}Q = QQ^{\top} = I 其中： Q^\top 是矩阵转置 I 是单位矩阵 从这个定义来说，Q 矩阵： 每一列之间都互相垂直 每一列长度都是 1 Q^{-1} = Q^{\top}: 逆矩阵等于转置矩阵 Orthogonal Matrix另一个好的优势就是：当一个乘某个Orthogonal Matrix时，得到的是： 旋转，镜像，或者两个旋转加景象。但不会把这个向量拉长、压短、拉歪： 对任意向量 x,y，看它们变换后的Inner Product： (Qx)^\... ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:43:48 GMT</pubDate>
+    <title>100 Paper with Code</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/100PwC/</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/100PwC/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 08 Apr 2026 05:12:30 GMT</pubDate>
   </item><item>
-    <title>About this Cookbook</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/</guid>
-    <description><![CDATA[ LLM的变化日新月异，每天都有新的东西诞生，从2023年ChatGPT的出示，到2026年出OpenClaw的爆火，现在学生，研究员的生活已经离不开大模型了。于是乎也有越来越多的人想要了解这一门技术，但是从何开始呢？ 可能有了解我的同学们，和我一起学习过Stanford CS336: LLM from Scratch。 确实，这是一门很好的课程，从数据搭建开始，到模型的Pre-Training， Post-Training， 以及如何高效的利用GPU，Parallelism的机制，到如何高效的Inference，并且Evaluation。不过LLM的扩展面还是很广的，有许多的内容课程中都没有提... ]]></description>
-    <pubDate>Thu, 19 Mar 2026 18:13:14 GMT</pubDate>
+    <title>Reward as Labels(REAL)</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</guid>
+    <description><![CDATA[ arxiv.org/abs/2602.05630 . ]]></description>
+    <pubDate>Mon, 06 Apr 2026 19:05:15 GMT</pubDate>
   </item><item>
     <title>Flash Attention</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Attention/Flash-Attention</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Attention/Flash-Attention</guid>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flash-Attention</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flash-Attention</guid>
     <description><![CDATA[ 1. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 16:15:52 GMT</pubDate>
+    <pubDate>Mon, 06 Apr 2026 19:05:06 GMT</pubDate>
   </item><item>
-    <title>Lecture 03: LM Model Architecture &amp; Hyperparameters</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/lec03</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/lec03</guid>
-    <description><![CDATA[ Lecture03 介绍了现代大语言模型的核心架构与超参数设计。课程对比了原始 Transformer 与主流 LLaMA-like 架构，总结了 pre-norm、RMSNorm、SwiGLU、RoPE 等关键设计的经验共识，并结合大量近期模型实践，讲解了 MLP 宽度比例、注意力头配置、模型深宽比与词表规模等超参数选择原则。同时还介绍了 z-loss、QK-Norm、MQA/GQA 等用于提升训练稳定性和推理效率的关键技巧。 ]]></description>
-    <pubDate>Thu, 19 Mar 2026 16:14:36 GMT</pubDate>
+    <title>Prefix Cache</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefix-Cache</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefix-Cache</guid>
+    <description><![CDATA[ Prefix Cache是大模型推理里的一个加速优化。 它的核心思想是： 如果不同请求前面有一段相同的 prompt，就把这段 prompt 已经算好的 KV cache 复用起来，不再重复计算。 具体来说：正常情况下，模型看到一段新 prompt，要先把整段 prompt 跑一遍，这叫 Prefill。而 Prefix Cache 做的是： 这段前缀我之前已经算过了，那我直接拿之前的结果接着用。 这样可以减少重复计算，尤其是长 prompt 场景。 为什么可以这样做呢，我们可以从 KV Cache 的角度来推导一下。在模型推理的时候，我们存下Key，Value的值，当下一步继续生成时，模型不... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 18:59:05 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/</guid>
+    <title>KV Cache</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/KV-Cache</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/KV-Cache</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 19 Mar 2026 15:56:37 GMT</pubDate>
+    <pubDate>Mon, 06 Apr 2026 18:51:39 GMT</pubDate>
   </item><item>
-    <title>Attention Residual(AttnRees)</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Attention-Residual(AttnRees)</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Attention-Residual(AttnRees)</guid>
-    <description><![CDATA[ arxiv.org/pdf/2603.15031 What the attention doing it. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 13:44:21 GMT</pubDate>
-  </item><item>
-    <title>Manifold-Constrained Hyper-Connections</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Manifold-Constrained-Hyper-Connections</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Model-Architecture/Residual-Connection/Manifold-Constrained-Hyper-Connections</guid>
-    <description><![CDATA[ arxiv.org/pdf/2512.24880 . ]]></description>
-    <pubDate>Thu, 19 Mar 2026 10:58:06 GMT</pubDate>
-  </item><item>
-    <title>RLAIF</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLAIF</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/RLAIF</guid>
+    <title>Prefill</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefill</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefill</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 19 Mar 2026 08:39:01 GMT</pubDate>
+    <pubDate>Mon, 06 Apr 2026 18:51:05 GMT</pubDate>
   </item><item>
-    <title>RL in LLM</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/RL-in-LLM/</guid>
+    <title>Continuous Batching</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Continuous-Batching</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Continuous-Batching</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Thu, 19 Mar 2026 08:36:49 GMT</pubDate>
+    <pubDate>Mon, 06 Apr 2026 18:34:16 GMT</pubDate>
+  </item><item>
+    <title>Speculative Decoding</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Speculative-Decoding</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Speculative-Decoding</guid>
+    <description><![CDATA[ Speculative Decoding（推测解码）是一种加速大模型推理的方法。 它的核心想法很简单： 先让一个更小、更快的模型“猜”几个 token，再让大模型一次性检查这些猜测对不对。 这样就不用让大模型一个 token 一个 token 地慢慢生成，所以速度会更快。. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 18:33:48 GMT</pubDate>
+  </item><item>
+    <title>AdamW</title>
+    <link>https://yyzhang2025.github.io/LLM-CookBook/Optimizer/AdamW</link>
+    <guid>https://yyzhang2025.github.io/LLM-CookBook/Optimizer/AdamW</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 06 Apr 2026 18:31:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
