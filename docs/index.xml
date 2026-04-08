@@ -2,67 +2,67 @@
 <rss version="2.0">
     <channel>
       <title>AI Cookbook</title>
-      <link>https://yyzhang2025.github.io/LLM-CookBook/</link>
+      <link>https://yyzhang2025.github.io/AI-Cookbook/</link>
       <description>Last 10 notes on AI Cookbook</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>01: Transformer</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/100PwC/01-Transformer</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/100PwC/01-Transformer</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/100PwC/01-Transformer</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/100PwC/01-Transformer</guid>
     <description><![CDATA[ Transformer 是一种基于 **自注意力机制** 的深度学习架构，能够并行处理序列，在语言、视觉和多模态任务中表现出色；并且作为 **GPT**、**BERT** 等大型语言模型（LLM）的核心基础，推动了当今生成式人工智能的快速发展。在本篇文章中，我们将深入探讨 Transformer 的基本原理，以及关键组件，包括 **Word Embedding**、**Position Embedding**、**Attention**、**Normalization Layer** 和 **Feed Forward Layer**。并通过在 `Ted Talks` 数据集上的实验，展示 Transformer 在实际任务中的应用效果。 ]]></description>
     <pubDate>Wed, 08 Apr 2026 14:45:42 GMT</pubDate>
   </item><item>
     <title>100 Paper with Code</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/100PwC/</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/100PwC/</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/100PwC/</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/100PwC/</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Wed, 08 Apr 2026 05:12:30 GMT</pubDate>
   </item><item>
     <title>Reward as Labels(REAL)</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</guid>
     <description><![CDATA[ arxiv.org/abs/2602.05630 . ]]></description>
     <pubDate>Mon, 06 Apr 2026 19:05:15 GMT</pubDate>
   </item><item>
     <title>Flash Attention</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flash-Attention</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flash-Attention</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flash-Attention</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flash-Attention</guid>
     <description><![CDATA[ 1. ]]></description>
     <pubDate>Mon, 06 Apr 2026 19:05:06 GMT</pubDate>
   </item><item>
     <title>Prefix Cache</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefix-Cache</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefix-Cache</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefix-Cache</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefix-Cache</guid>
     <description><![CDATA[ Prefix Cache是大模型推理里的一个加速优化。 它的核心思想是： 如果不同请求前面有一段相同的 prompt，就把这段 prompt 已经算好的 KV cache 复用起来，不再重复计算。 具体来说：正常情况下，模型看到一段新 prompt，要先把整段 prompt 跑一遍，这叫 Prefill。而 Prefix Cache 做的是： 这段前缀我之前已经算过了，那我直接拿之前的结果接着用。 这样可以减少重复计算，尤其是长 prompt 场景。 为什么可以这样做呢，我们可以从 KV Cache 的角度来推导一下。在模型推理的时候，我们存下Key，Value的值，当下一步继续生成时，模型不... ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:59:05 GMT</pubDate>
   </item><item>
     <title>KV Cache</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/KV-Cache</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/KV-Cache</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/KV-Cache</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/KV-Cache</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:51:39 GMT</pubDate>
   </item><item>
     <title>Prefill</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefill</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefill</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefill</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefill</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:51:05 GMT</pubDate>
   </item><item>
     <title>Continuous Batching</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Continuous-Batching</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Continuous-Batching</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Continuous-Batching</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Continuous-Batching</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:34:16 GMT</pubDate>
   </item><item>
     <title>Speculative Decoding</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Speculative-Decoding</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Speculative-Decoding</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Speculative-Decoding</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Speculative-Decoding</guid>
     <description><![CDATA[ Speculative Decoding（推测解码）是一种加速大模型推理的方法。 它的核心想法很简单： 先让一个更小、更快的模型“猜”几个 token，再让大模型一次性检查这些猜测对不对。 这样就不用让大模型一个 token 一个 token 地慢慢生成，所以速度会更快。. ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:33:48 GMT</pubDate>
   </item><item>
     <title>AdamW</title>
-    <link>https://yyzhang2025.github.io/LLM-CookBook/Optimizer/AdamW</link>
-    <guid>https://yyzhang2025.github.io/LLM-CookBook/Optimizer/AdamW</guid>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/AdamW</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/AdamW</guid>
     <description><![CDATA[  ]]></description>
     <pubDate>Mon, 06 Apr 2026 18:31:49 GMT</pubDate>
   </item>

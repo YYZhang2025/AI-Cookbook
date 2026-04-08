@@ -1,124 +1,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/100PwC/01-Transformer</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/100PwC/01-Transformer</loc>
     <lastmod>2026-04-08T14:45:42.877Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/100PwC/</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/100PwC/</loc>
     <lastmod>2026-04-08T05:12:30.590Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Continuous-Batching</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Continuous-Batching</loc>
     <lastmod>2026-04-06T18:34:16.817Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/KV-Cache</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/KV-Cache</loc>
     <lastmod>2026-04-06T18:51:39.115Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefill</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefill</loc>
     <lastmod>2026-04-06T18:51:05.518Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Prefix-Cache</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefix-Cache</loc>
     <lastmod>2026-04-06T18:59:05.322Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Inference/Speculative-Decoding</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Speculative-Decoding</loc>
     <lastmod>2026-04-06T18:33:48.797Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flash-Attention</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flash-Attention</loc>
     <lastmod>2026-04-06T19:05:06.616Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Flex-Attention</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flex-Attention</loc>
     <lastmod>2026-04-01T15:03:51.653Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Multi-Head-Attention</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Multi-Head-Attention</loc>
     <lastmod>2026-03-16T04:46:54.538Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Attention/Paged-Attention</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Paged-Attention</loc>
     <lastmod>2026-04-01T15:04:40.475Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Normalization/Layer-Norm</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Normalization/Layer-Norm</loc>
     <lastmod>2026-03-18T18:15:20.132Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Normalization/QK-Norm</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Normalization/QK-Norm</loc>
     <lastmod>2026-03-18T18:15:43.745Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/Normalization/RMS-Norm</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Normalization/RMS-Norm</loc>
     <lastmod>2026-03-18T18:15:25.291Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/Model-Architecture/</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/</loc>
     <lastmod>2026-03-18T08:11:02.694Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/GRPO(Group-Relative-Policy-Optimization-)</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/GRPO(Group-Relative-Policy-Optimization-)</loc>
     <lastmod>2026-03-12T11:14:17.933Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/RLAIF</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/RLAIF</loc>
     <lastmod>2026-03-19T08:39:01.081Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/RLVR</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/RLVR</loc>
     <lastmod>2026-03-19T08:34:26.878Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</loc>
     <lastmod>2026-04-06T19:05:15.260Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/LLM/RL-in-LLM/</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/</loc>
     <lastmod>2026-03-19T08:36:49.852Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Cosine-Similarity</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Cosine-Similarity</loc>
     <lastmod>2026-04-06T18:20:14.269Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Dot-Product-Similarity</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Dot-Product-Similarity</loc>
     <lastmod>2026-04-06T18:16:27.754Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Orthogonal-matrix</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Orthogonal-matrix</loc>
     <lastmod>2026-03-19T18:43:48.043Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Singular-Value-Decomposition(SVD)</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Singular-Value-Decomposition(SVD)</loc>
     <lastmod>2026-03-31T07:10:50.562Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Mathematic/Softmax-Function</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Softmax-Function</loc>
     <lastmod>2026-04-06T18:07:56.541Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Optimizer/AdamW</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/AdamW</loc>
     <lastmod>2026-04-06T18:31:49.788Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/PyTorch/DataLoader</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/PyTorch/DataLoader</loc>
     <lastmod>2026-04-06T18:28:07.413Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/Stanford-CS336/</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/Stanford-CS336/</loc>
     <lastmod>2026-04-06T18:27:37.692Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/AdamW</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/AdamW</loc>
     <lastmod>2026-04-02T18:40:21.926Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/AttnRees-(Attention-Residual)</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/AttnRees-(Attention-Residual)</loc>
     <lastmod>2026-04-03T13:01:04.670Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/CUDA-Graph</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/CUDA-Graph</loc>
     <lastmod>2026-04-02T18:55:03.196Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/Kernel-Fusion</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/Kernel-Fusion</loc>
     <lastmod>2026-04-02T18:40:49.804Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/Muon</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/Muon</loc>
     <lastmod>2026-04-02T18:40:39.158Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/ReAct</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/ReAct</loc>
     <lastmod>2026-03-16T04:46:54.525Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/Reflection</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/Reflection</loc>
     <lastmod>2026-03-12T10:43:35.495Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/RoPE</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/RoPE</loc>
     <lastmod>2026-04-03T13:04:14.327Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/Tensor-Parallelism</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/Tensor-Parallelism</loc>
     <lastmod>2026-04-03T13:07:06.147Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/Tiling</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/Tiling</loc>
     <lastmod>2026-03-18T18:17:53.117Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/YARN</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/YARN</loc>
     <lastmod>2026-04-03T13:04:10.969Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/_Glossary/mHC-(Manifold-Constrained-Hyper-Connections)</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/_Glossary/mHC-(Manifold-Constrained-Hyper-Connections)</loc>
     <lastmod>2026-04-03T13:01:18.400Z</lastmod>
   </url><url>
-    <loc>https://yyzhang2025.github.io/LLM-CookBook/</loc>
+    <loc>https://yyzhang2025.github.io/AI-Cookbook/</loc>
     <lastmod>2026-03-19T18:13:14.276Z</lastmod>
   </url></urlset>
