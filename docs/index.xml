@@ -6,65 +6,65 @@
       <description>Last 10 notes on AI Cookbook</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>01: Transformer</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/100PwC/01-Transformer</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/100PwC/01-Transformer</guid>
-    <description><![CDATA[ Transformer 是一种基于 **自注意力机制** 的深度学习架构，能够并行处理序列，在语言、视觉和多模态任务中表现出色；并且作为 **GPT**、**BERT** 等大型语言模型（LLM）的核心基础，推动了当今生成式人工智能的快速发展。在本篇文章中，我们将深入探讨 Transformer 的基本原理，以及关键组件，包括 **Word Embedding**、**Position Embedding**、**Attention**、**Normalization Layer** 和 **Feed Forward Layer**。并通过在 `Ted Talks` 数据集上的实验，展示 Transformer 在实际任务中的应用效果。 ]]></description>
-    <pubDate>Wed, 08 Apr 2026 14:45:42 GMT</pubDate>
-  </item><item>
-    <title>100 Paper with Code</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/100PwC/</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/100PwC/</guid>
+    <title>Gaussian Distribution</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Gaussian-Distribution</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Gaussian-Distribution</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 08 Apr 2026 05:12:30 GMT</pubDate>
+    <pubDate>Sat, 11 Apr 2026 20:33:16 GMT</pubDate>
   </item><item>
-    <title>Reward as Labels(REAL)</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/RL-in-LLM/Reward-as-Labels(REAL)</guid>
-    <description><![CDATA[ arxiv.org/abs/2602.05630 . ]]></description>
-    <pubDate>Mon, 06 Apr 2026 19:05:15 GMT</pubDate>
+    <title>Lecture 01 Diffusion</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/Lecture-01-Diffusion</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/Lecture-01-Diffusion</guid>
+    <description><![CDATA[ Lecture 01 主要介绍了Diffusion Process。假设我们有一些samples，从 p_{\text{data}} ,但是我们不知道 p_{\text{data}} 是什么。我们目标是： 生成新的图片，并且让这个图片从这个distribution中出来 . ]]></description>
+    <pubDate>Sat, 11 Apr 2026 16:51:25 GMT</pubDate>
   </item><item>
-    <title>Flash Attention</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flash-Attention</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Attention/Flash-Attention</guid>
-    <description><![CDATA[ 1. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 19:05:06 GMT</pubDate>
+    <title>Stanford CME296: Diffusion &amp; Large Vision Models Lecture Notes</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/</guid>
+    <description><![CDATA[ 这个Lecture主要是讲了什么是Diffusion Model 和 Image Generation。课程主要有7节：如下图所示， 总共有7个Lectures： Lecture 1-3 是关于Generation Paradigm，也就是基于 Lecture 4 是关于Conditional Generation的，给定一个Prompt，如何根据这个Prompt来生成图片 Lecture 5: 在这节课，将探索不同的Model Architecture Lecture 6: Model Training，看关于Model Training的细节 Lecture 7: Evaluation，如... ]]></description>
+    <pubDate>Sat, 11 Apr 2026 16:48:33 GMT</pubDate>
   </item><item>
-    <title>Prefix Cache</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefix-Cache</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefix-Cache</guid>
-    <description><![CDATA[ Prefix Cache是大模型推理里的一个加速优化。 它的核心思想是： 如果不同请求前面有一段相同的 prompt，就把这段 prompt 已经算好的 KV cache 复用起来，不再重复计算。 具体来说：正常情况下，模型看到一段新 prompt，要先把整段 prompt 跑一遍，这叫 Prefill。而 Prefix Cache 做的是： 这段前缀我之前已经算过了，那我直接拿之前的结果接着用。 这样可以减少重复计算，尤其是长 prompt 场景。 为什么可以这样做呢，我们可以从 KV Cache 的角度来推导一下。在模型推理的时候，我们存下Key，Value的值，当下一步继续生成时，模型不... ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:59:05 GMT</pubDate>
+    <title>Lecture 02 Score Matching</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/Lecture-02-Score-Matching</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CME296-Diffusion--and--Large-Vision-Models/Lecture-02-Score-Matching</guid>
+    <description><![CDATA[ THis is the Score matching. ]]></description>
+    <pubDate>Sat, 11 Apr 2026 16:31:40 GMT</pubDate>
   </item><item>
-    <title>KV Cache</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/KV-Cache</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/KV-Cache</guid>
+    <title>index</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CS336-LLM-From-Scratch/</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Courses/Stanford-CS336-LLM-From-Scratch/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:51:39 GMT</pubDate>
+    <pubDate>Sat, 11 Apr 2026 16:29:38 GMT</pubDate>
   </item><item>
-    <title>Prefill</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefill</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Prefill</guid>
+    <title>AttnRes (Attention Residual)</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Residual-Connection/AttnRes-(Attention-Residual)</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Residual-Connection/AttnRes-(Attention-Residual)</guid>
+    <description><![CDATA[ Attention Residual 是Kimi团队提出来的，用来替代Residual Connection的方法，它的核心思想很简单： 传统残差是“把前面所有层的输出直接加起来”；AttnRes 则是“让当前层对前面所有层的输出做一次按深度方向的 attention，再选择性聚合”。 如下图所示： 我们先来看一下普通的Transformer的Residual Connection在做什么。 Residual Connection in Transformer 标准 PreNorm Transformer 里，一层通常是这样： h_l = h_{l-1} + f_{l-1}(h_{l-1}) ... ]]></description>
+    <pubDate>Sat, 11 Apr 2026 16:28:56 GMT</pubDate>
+  </item><item>
+    <title>Residual Connection</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Residual-Connection/Residual-Connection</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Model-Architecture/Residual-Connection/Residual-Connection</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:51:05 GMT</pubDate>
+    <pubDate>Thu, 09 Apr 2026 15:33:48 GMT</pubDate>
   </item><item>
-    <title>Continuous Batching</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Continuous-Batching</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Continuous-Batching</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:34:16 GMT</pubDate>
+    <title>Muon</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/Muon</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/Muon</guid>
+    <description><![CDATA[ Preliminary 在了解Moun 之前， Singular Value Decomposition 如果一个矩阵 A \in \mathbb{R}^{m \times n}, 那么它可以分解为： A = U \Sigma V^\top 这三个不同的矩阵，其中： U: Left Singular Vectors, 输出空间的正交方向 \Sigma： Singular Values Matrix，表示在每个方向上的拉伸强度 V: Right Singular Vectors，输入空间里的正交方向 我们也可以把它看成，一个矩阵经过：旋转+拉伸+旋转 我们知道， 在AdamW更新的时候，有一个M... ]]></description>
+    <pubDate>Wed, 08 Apr 2026 16:52:15 GMT</pubDate>
   </item><item>
-    <title>Speculative Decoding</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Speculative-Decoding</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/LLM/Inference/Speculative-Decoding</guid>
-    <description><![CDATA[ Speculative Decoding（推测解码）是一种加速大模型推理的方法。 它的核心想法很简单： 先让一个更小、更快的模型“猜”几个 token，再让大模型一次性检查这些猜测对不对。 这样就不用让大模型一个 token 一个 token 地慢慢生成，所以速度会更快。. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:33:48 GMT</pubDate>
+    <title>Low Rank Matrix</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Low-Rank-Matrix</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Mathematic/Low-Rank-Matrix</guid>
+    <description><![CDATA[ 矩阵里真正独立的信息很少，虽然表面上它很大，但本质上只由少数几个方向决定。比如一个 1000 \times 1000 的矩阵： 如果 rank = 1000，说明信息很丰富，很多方向都独立 如果 rank = 3，说明虽然它有一百万个元素，但本质上只需要 3 个独立方向就能描述大部分结构 . ]]></description>
+    <pubDate>Wed, 08 Apr 2026 16:49:06 GMT</pubDate>
   </item><item>
-    <title>AdamW</title>
-    <link>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/AdamW</link>
-    <guid>https://yyzhang2025.github.io/AI-Cookbook/Optimizer/AdamW</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Mon, 06 Apr 2026 18:31:49 GMT</pubDate>
+    <title>Roofline Model</title>
+    <link>https://yyzhang2025.github.io/AI-Cookbook/Hardware/Roofline-Model</link>
+    <guid>https://yyzhang2025.github.io/AI-Cookbook/Hardware/Roofline-Model</guid>
+    <description><![CDATA[ 一个程序在某台硬件上，理论上最多能跑多快，是由两种上限共同决定的： 算力上限（compute peak） 带宽上限（Memory Bandwidth） 最终程序性能不会超过这两者更小的那个。 Roofine的图如下图所示： Roofline的核心公式是： P \leq \underset{}{\min} (P_{\text{peak}}, I \times BW) 其中： P: 程序实际能达到的性能，比如 FLOPs/s P_{\text{peak}}: 硬件的峰值算力 (广告中说的能达到的效率) BW: 硬件的内存带宽（Bytes/s） I: 算术强度（Arithmetic Intensit... ]]></description>
+    <pubDate>Wed, 08 Apr 2026 16:46:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
